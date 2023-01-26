@@ -1,0 +1,49 @@
+This is the new file used for demoing the git commands.
+1. git --version -  To show the version of git in your system
+2. git init-   To initialize the repository
+3. git config --global user.name "Anil kumar yadav" -  To set the name which is attached to commits
+4. git config --global user.email "anilsiwan2001@gmail.com" -   To set the e-mail address which is attached to commits
+5. mkdir sample - create a directory
+6. git clone - To download a project
+7. git status - To display the status of working directory
+8. git commit- To create a new commit 
+9. git diff - Show the change between working directory
+10. git add - Add a file to the staging
+11. git add -A - Stage all new, modified, and deleted files. Use the shorthand command
+12. git commit -m " message" - Commit the changes to the current repository with the message
+13. git status --short - To Check the compact version of the status for repository
+14. git commit -a -m - Commit the updated files directly, skipping the staging environment
+15. git log - To view the history of commits for the repository
+16. git status -help - To show the possible options for the status command in command line
+17. git help --all - To show all git possible commands in command line
+18. git branch hello-world-images - To create a new branch called hello-world-images
+19. git branch - List the existing branches
+20. git checkout hello-world-images - Move to the hello-world-images branch
+21. git checkout -b hello-you - Create, and move to a new branch with the name hello-you
+22. git merge hello-you - Merge the hello-you branch with the current branch
+23. git branch -d hello-you - Remove the hello-you branch from the local repository
+24. git romote add origin https://github.com/x/y.git - Add a remote repository as an origin
+25.
+26. git fetch origin - Get all the change history of the origin for this branch
+27. git merge origin/master - Merge the current branch with the branch master, on origin
+28. git pull origin - Update the current branch from its origin using a single command
+29. git push origin - push the current branch to its default remote origin
+30. git branch -a - List all local and remote branches of the current Git
+31. git branch -r - List only remote branches of the current Git.
+32. git clone https://abc.com/x/y.git -  Clone the repository: https://abc.com/x/y.git to your local Git
+33. git clone https://abc.com/x/y.git newlife - Clone the repository https://abc.com/x/y.git to a folder named "newlife"
+34. git remote rename origin upstream - Rename the origin remote to upstream
+35. *.temp - In .gitignore add a line to ignore all .temp files
+36. temp/ - In .gitignore add a line to ignore all files in any directory named temp
+37. temp?.log - In .gitignore add a single line to ignore all files named temp1.log, temp2.log, and temp3.log
+38. *.log
+   !main.log - In .gitignore, ignore all .log files, except main.log
+39. git remote add ssh-origin git@abc.com:x/y.git - Add a new remote named ssh-origin connecting to x/y.git on abc.com using SSH
+40. git remote set-url origin git@abc.com:x/y.git - Replace the remote URL for origin with x/y.git on abc.com using SSH
+41. git log --oneline - Show the log of the repository, showing just 1 line per commit
+42. git revert HEAD - revert the latest commit
+43. git revert HEAD --no-edit - revert the latest commit, skipping the commit message editor
+44. git revert HEAD~1 - revert the two last commits
+45. git reset abc1234 - reset to the commit with the hash abc1234
+46. git commit --amend -m "Updated index" - Amend the previous commit to with the message "Updated index"
+
